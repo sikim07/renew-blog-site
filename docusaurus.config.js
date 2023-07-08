@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'CS',
-                to: '/docs/cs/1.Cookie',
+                to: '/docs/cs/Cookie',
               },
               {
                 label: 'Algorithms',
@@ -123,11 +123,11 @@ const config = {
               },
               {
                 label: 'Javascript',
-                to: '/docs/javascript/1.webpack',
+                to: '/docs/javascript/webpack',
               },
               {
                 label: 'NextJS',
-                to: '/docs/nextjs/1.nextjs',
+                to: '/docs/nextjs/nextjs',
               },
             ],
           },
