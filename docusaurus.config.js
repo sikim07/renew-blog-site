@@ -131,6 +131,15 @@ const config = {
               },
             ],
           },
+          {
+            title: 'About',
+            items: [
+              {
+                label: 'About',
+                to: '/docs/about/resume-en',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
