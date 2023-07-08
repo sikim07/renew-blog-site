@@ -114,8 +114,20 @@ const config = {
             title: 'SITEMAP',
             items: [
               {
-                label: 'About',
-                to: '/docs/about/resume-en',
+                label: 'CS',
+                to: '/docs/cs/1.Cookie',
+              },
+              {
+                label: 'Algorithms',
+                to: '/docs/algorithms/E)1.Two_Sum',
+              },
+              {
+                label: 'Javascript',
+                to: '/docs/javascript/1.webpack',
+              },
+              {
+                label: 'NextJS',
+                to: '/docs/nextjs/1.nextjs',
               },
             ],
           },
