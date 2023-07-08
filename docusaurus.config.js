@@ -77,6 +77,11 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/cs', label: 'CS', position: 'left'},
+          {to: '/algorithms', label: 'Algorithms', position: 'left'},
+          {to: '/__about', label: 'About', position: 'left'},
+          {to: '/javascript', label: 'Javascript', position: 'left'},
+          {to: '/next.js', label: 'NextJS', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
