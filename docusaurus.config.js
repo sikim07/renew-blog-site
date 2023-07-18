@@ -61,7 +61,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'naver-site-verification', content: 'd0e1a4aa1546fb108585c8f7d3d1f252ef276d98'}],
+      metadata: [{name: 'naver-site-verification', content: 'd0e1a4aa1546fb108585c8f7d3d1f252ef276d98'}
+        ,{name:'robots' ,content:"index,nofollow"}
+    ],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
