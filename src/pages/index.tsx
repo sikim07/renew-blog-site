@@ -23,8 +23,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Web Frontend로의 수련 블로그`}
+      description="Web Frontend로의 수련">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
