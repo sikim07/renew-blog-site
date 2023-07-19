@@ -54,8 +54,24 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        pages: {
+          path: 'src/pages',
+          routeBasePath: '/',
+          include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          mdxPageComponent: '@theme/MDXPage',
+          rehypePlugins: [],
+          beforeDefaultRemarkPlugins: [],
+          beforeDefaultRehypePlugins: [],
+        },
       }),
     ],
+    
   ],
 
   themeConfig:
@@ -99,12 +115,6 @@ const config = {
             label: 'NextJS',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'aboutSidebar',
-            position: 'left',
-            label: 'About',
-          },
-          {
             href: 'https://github.com/sikim07',
             label: 'GitHub',
             position: 'right',
@@ -140,7 +150,7 @@ const config = {
             items: [
               {
                 label: 'About',
-                to: '/docs/about/resume-en',
+                to: '/about',
               },
             ],
           },
