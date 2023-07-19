@@ -62,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [{name: 'naver-site-verification', content: 'd0e1a4aa1546fb108585c8f7d3d1f252ef276d98'}
-        ,{name:'robots' ,content:"index,nofollow"}
+        ,{name:'robots' ,content:"index,follow"}
         ,{name:'google-site-verification' ,content:"ca3i83OO2Snp2U4Iy_ZSk-WJmEfYduM31kcIyyMhR2M"}
     ],
       // Replace with your project's social card
